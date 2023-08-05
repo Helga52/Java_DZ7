@@ -3,11 +3,11 @@ package ru.netology.stats;
 import org.junit.jupiter.api.Test;
 import org.junit.jupiter.api.Assertions;
 
-public class StatServiceTest {
+public class StatsServiceTest {
 
     @Test
     public void shouldCalculateTotalOfSales() {
-        StatService service = new StatService();
+        StatsService service = new StatsService();
 
         // подготавливаем данные:
         int[] sales = {
@@ -24,7 +24,7 @@ public class StatServiceTest {
 
     @Test
     public void shouldCalculateAverageOfAllSales() {
-        StatService service = new StatService();
+        StatsService service = new StatsService();
 
         // подготавливаем данные:
         int[] sales = {
@@ -41,7 +41,7 @@ public class StatServiceTest {
 
     @Test
     public void shouldCalculateMaxSales() {
-        StatService service = new StatService();
+        StatsService service = new StatsService();
 
         // подготавливаем данные:
         int[] sales = {
@@ -58,7 +58,7 @@ public class StatServiceTest {
 
     @Test
     public void shouldCalculateMinSales() {
-        StatService service = new StatService();
+        StatsService service = new StatsService();
 
         // подготавливаем данные:
         int[] sales = {
@@ -75,7 +75,7 @@ public class StatServiceTest {
 
     @Test
     public void shouldCalculateMonthUnderAverageSales() {
-        StatService service = new StatService();
+        StatsService service = new StatsService();
 
         // подготавливаем данные:
         int[] sales = {
@@ -92,7 +92,7 @@ public class StatServiceTest {
 
     @Test
     public void shouldCalculateMonthOverAverageSales() {
-        StatService service = new StatService();
+        StatsService service = new StatsService();
 
         // подготавливаем данные:
         int[] sales = {

@@ -1,6 +1,6 @@
 package ru.netology.stats;
 
-public class StatService {
+public class StatsService {
     public int totalOfAllSales(int[] sales) {
         int totalSales = 0; // первоначальное значение суммы всех продаж
 
